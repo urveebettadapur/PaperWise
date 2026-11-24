@@ -1,0 +1,12 @@
+
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+sentence-transformers
+rank-bm25
+pymupdf
+ollama
+streamlit
+pandas
+numpy

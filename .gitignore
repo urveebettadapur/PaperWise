@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PaperWise - Local data and generated files
+chroma_db/
+data/sample_papers/*.pdf
+
+# Environment variables and secrets
+.env
+
+# Streamlit
+.streamlit/secrets.toml
