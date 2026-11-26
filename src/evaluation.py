@@ -110,15 +110,15 @@ def evaluate_method(method, query, relevant_ids, k=5, candidate_k=20):
 
 # Evaluation dataset
 
+
 EVALUATION_DATASET = [
     {
         "question": "What is the attention mechanism used in Transformer models?",
         "relevant_chunks": {
-            "attention_is_all_you_need.pdf_page_2_chunk_4",
-            "attention_is_all_you_need.pdf_page_2_chunk_8",
-            "attention_is_all_you_need.pdf_page_1_chunk_3",
-            "attention_is_all_you_need.pdf_page_3_chunk_1",
+            "attention_is_all_you_need.pdf_page_5_chunk_2",
             "attention_is_all_you_need.pdf_page_5_chunk_3",
+            "attention_is_all_you_need.pdf_page_2_chunk_8",
+            "attention_is_all_you_need.pdf_page_3_chunk_1",
             "attention_is_all_you_need.pdf_page_10_chunk_4"
         }
     },
@@ -126,20 +126,19 @@ EVALUATION_DATASET = [
         "question": "How does Dense Passage Retrieval retrieve relevant passages?",
         "relevant_chunks": {
             "dense_passage_retrieval.pdf_page_2_chunk_10",
-            "dense_passage_retrieval.pdf_page_2_chunk_11",
             "dense_passage_retrieval.pdf_page_1_chunk_2",
+            "dense_passage_retrieval.pdf_page_2_chunk_11",
             "dense_passage_retrieval.pdf_page_2_chunk_3"
         }
     },
     {
         "question": "What is the lost-in-the-middle problem in language models?",
         "relevant_chunks": {
-            "lost_in_the_middle.pdf_page_2_chunk_5",
             "lost_in_the_middle.pdf_page_7_chunk_3",
-            "lost_in_the_middle.pdf_page_1_chunk_7",
             "lost_in_the_middle.pdf_page_5_chunk_5",
-            "lost_in_the_middle.pdf_page_2_chunk_6",
-            "lost_in_the_middle.pdf_page_1_chunk_3"
+            "lost_in_the_middle.pdf_page_2_chunk_5",
+            "lost_in_the_middle.pdf_page_1_chunk_7",
+            "lost_in_the_middle.pdf_page_2_chunk_6"
         }
     },
     {
